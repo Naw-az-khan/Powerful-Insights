@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 30px;
+    height: 30px;
+}
+.menubar{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.box{
+    width: 50%;
+    height: 320px;
+    background-color: rgb(237, 234, 255);
+    float: right;
+    border-bottom-left-radius: 50px;
+}
+.illusimg{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+}
+section{
+    margin-left: 25px;
+    position: absolute;
+    top: 350px;
+}
+.spacing{
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight:200;
+    
+}
+.new{
+    width: 60px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    background-color:black;
+    border-radius: 50px;
+    color: white;
+    display: inline-block;
+    font-weight:900;
+    
+    
+}
+.txtspace{
+    display: inline-block;
+}
+.power{
+    font-size: 1.8rem;
+    font-weight:800 ;
+    font-family: 'Barlow', sans-serif;
+    
+}
+.project{
+    font-size: 1rem;
+    font-weight: bold;
+}
+button{
+    width: 175px;
+    height: 35px;
+    background-color: rgb(255, 88, 88);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.spacing2{
+    word-spacing: 5px;
+    display: inline-block;
+}
+.txtspace2{
+    font-size: 0.8rem;
+    word-spacing: 0.8px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+}
+.dskmenu{
+    display: none;
+}
+@media screen and (min-width:1024px) {
+    *{
+        margin-top: 5px;
+    }
+    .logo{
+        margin-top: 50px;
+        margin-left: 75px;
+    }
+    .box{
+        width: 50%;
+        height: 400px;
+    }
+    .illusimg{
+
+        width: 65%;
+        height: 400px;
+        position: absolute;
+        top: 200px;
+        left: 700px;
+    }
+    .menubar{
+        display: none;
+    }
+    section{
+        margin-left: 75px;
+        position: absolute;
+        top: 200px;
+        left: 0;
+    }
+    .power{
+        font-size: 3rem;
+        font-weight:800 ;
+        font-family: 'Barlow', sans-serif;
+        
+    }
+    .spacing2{
+        word-spacing: 20px;
+    }
+    .txtspace2{
+        letter-spacing: 2px;
+    }
+    button{
+        width: 200px;
+    height: 45px;
+    }
+    .dskmenu{
+        display: block;
+    }
+    .menu{
+        font-family: 'Barlow', sans-serif;
+        font-weight: 800;
+        word-spacing: 20px;
+        color: black;
+        position: absolute;
+        top: 75px;
+        left: 900px;
+
+    }
+    .color{
+        font-family: 'Barlow', sans-serif;
+        font-weight: 800;
+        color: rgb(146, 146, 146);
+    }
+
+}
